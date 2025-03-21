@@ -1,4 +1,36 @@
 body {
     width: 100%;
     height: 100vh;
+    font-family:"Segoe UI";
+
+    .container {
+        width: 100%;
+        height: 100vh;
+
+        .right-nav {
+            flex-direction: column;
+            padding: 15px;
+            width: 250px;
+            height: 100vh;
+            justify-content: left;
+            align-content: left;
+            background-color: #dbdbdb;
+            list-style-type: none;
+    
+            .button {
+                width: 100%;
+                height: 40px;
+                margin-top: 10px;
+                padding: 5px;
+                justify-content: center;
+                align-content: center;
+                background-color: #ffffff;
+                border: none;
+                border-bottom: 2px solid #9b9b9b;
+                font-size: 20px;
+                text-align: center;
+            }
+        }
+    }
+    
 }
