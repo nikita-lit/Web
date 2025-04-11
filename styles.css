@@ -1,25 +1,35 @@
 body {
     width: 100%;
     height: 100vh;
-    font-family: 'Trebuchet MS';
-    background-color: #111111;
+    font-family: 'Verdana';
+    background: white;
+    margin: 0;
+    padding: 0;
 
     .container {
         width: 100%;
         height: 100vh;
 
+        .header {
+            width: 100%; 
+            height: 45px;
+            background-color: rgb(25, 25, 25);
+            border-bottom: 1px solid #adadad;
+        }
+
         .right-nav {
             display: flex;
             flex-wrap: wrap;
             flex-direction: column;
-            padding: 15px;
             width: 250px;
             height: 100vh;
             justify-content: left;
             align-content: left;
-            background-color: #262626;
+            background-color: rgb(25, 25, 25);
+            border-right: 1px solid #adadad;
             list-style-type: none;
-            gap: 10px;
+            margin: 0;
+            padding: 0;
     
             .button {
                 width: 100%;
@@ -28,14 +38,17 @@ body {
                 align-content: center;
                 background: none;
                 border: none;
-                border: 1px solid #ffffff;
-                border-radius: 5px;
-                font-size: 20px;
+                font-size: 18px;
                 color: white;
-                text-align: center;
+                text-align: left;
+                padding-left: 15px;
+                border-bottom: 1px solid #adadad;
 
                 &:hover {
-                    background-color: #3f4648;
+                    background-color: #0082df;
+                    color: white;
+                    border-left: 5px solid white;
+                    border-bottom: none;
                 }
             }
         }
